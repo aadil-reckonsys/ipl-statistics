@@ -12,20 +12,20 @@ Dependency for django project
 2. Celery
 
 ### File update in Backend
-Upload depends on celery task please make sure celery is running in background.
-
-*for Match.csv*
-Please call this api
-url: /api/storage/match/
-type: post
-data: match_file (give file here)
-
-*for Delivery.csv*
-Please call this api
-url: /api/storage/delivery/
-type: post
-data: delivery_file (give file here)
-
+Upload depends on celery task please make sure celery is running in background.<br />
+<br />
+*for Match.csv*<br />
+Please call this api<br />
+url: /api/storage/match/<br />
+type: post<br />
+data: match_file (give file here)<br />
+<br />
+*for Delivery.csv*<br />
+Please call this api<br />
+url: /api/storage/delivery/<br />
+type: post<br />
+data: delivery_file (give file here)<br />
+<br />
 
 ### To install please follow below steps for React project. You need to first update BASE_URL var in *src/constant.ts*
 1. cd ipl_client
